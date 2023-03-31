@@ -1,0 +1,85 @@
+/* Estilos padrão para desktop */
+html,body {
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+body {
+    background-image: linear-gradient(
+        rgb(102, 247, 143),
+        rgb(78, 78, 180)
+    );
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+table#tabela {
+    padding-top: 100px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 5px 5px 5px 5px;
+}
+
+div.container {
+    border-radius: 20px;
+    padding: 10px 16px 10px 15px;
+    font-size: 18px;
+    width: 600px;
+    margin: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 480px;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.113);
+}
+
+button.btn.btn-primary {
+    color: rgb(246, 246, 246);
+    background-color: rgb(106, 33, 188);
+    margin: 5px 5px 5px 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 530;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.107);
+}
+
+button.btn.btn-warning.editar {
+    color: rgb(246, 246, 246);
+    margin: 5px 5px 5px 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 530;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.107);
+}
+
+button.btn.btn-danger.remover {
+
+    margin: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 530;
+    box-shadow: rgba(0, 0, 0, 0.106) 2px 2px 2px 2px;
+}
+
+.form-control {
+    border-radius: 5px;
+}
+/* Estilos para telas menores */
+@media only screen and (max-width: 600px) {
+    div.container {
+        font-size: 14px;
+        width: 90%;
+        margin: 10px auto;
+        height: auto;
+    }
+
+    button.btn.btn-danger.remover {
+
+        color: rgb(246, 246, 246);
+        width: 80px;
+        margin: 5px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 530;
+        box-shadow: rgba(0, 0, 0, 0.106) 2px 2px 2px 2px;
+    }
+}

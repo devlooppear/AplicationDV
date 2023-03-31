@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/stylesheet.css">
+    <title>AplicationDV</title>
+</head>
+	<div class="container">
+
+		<form id="form">
+			<div class="form-group">
+				<label for="tipo">Tipo:</label>
+				<select class="form-control" id="tipo" name="tipo">
+					<option value="filme">Filme</option>
+					<option value="serie">Série</option>
+					<option value="anime">Anime</option>
+				</select>
+			</div>
+			<div class="form-group">
+				<label for="nome">Nome:</label>
+				<input type="text" class="form-control" id="nome" name="nome">
+			</div>
+			<div class="form-group">
+				<label for="plataforma">Plataforma:</label>
+				<select class="form-control" id="plataforma" name="plataforma">
+					<option value="streaming">Streaming</option>
+					<option value="tv">TV</option>
+					<option value="cinema">Cinema</option>
+				</select>
+			</div>
+			<div class="form-group">
+				<label for="genero">Gênero:</label>
+				<select class="form-control" id="genero" name="genero">
+					<option value="terror">Terror</option>
+					<option value="suspense">Suspense</option>
+					<option value="romance">Romance</option>
+					<option value="familia">Para a Família</option>
+					<option value="infantil">Infantil</option>
+					<option value="acao">Ação</option>
+					<option value="drama">Drama</option>
+					<option value="documentario">Documentário</option>
+					<option value="ficcao">Ficção Científica</option>
+					<option value="humor">Humor</option>
+				</select>
+			</div>
+         
+			<button type="submit" class="btn btn-primary">Adicionar</button>
+
+		</form>
+		
+		<!-- Aqui ficará nossa tabela -->
+		<table id="tabela" class="table">
+			<thead>
+				<tr>
+					<th>Tipo</th>
+					<th>Nome</th>
+					<th>Plataforma</th>
+					<th>Gênero</th>
+				</tr>
+			</thead>
+			<tbody>
+			</tbody>
+		</table>
+	</div>
+	
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="assets/js/script.js""></script>
+</body>
+</html>
